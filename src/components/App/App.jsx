@@ -1,10 +1,10 @@
 import './App.scss'
+import {Routes} from '../Routes/index'
 
 function App() {
   return (
     <div className="App">
-     <h1 className='text-gray-500'>Apples</h1>
-     
+     <Routes />
     </div>
   );
 }
