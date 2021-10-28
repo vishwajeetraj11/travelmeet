@@ -3,7 +3,8 @@ import './App.scss'
 function App() {
   return (
     <div className="App">
-     <h1>Apples</h1>
+     <h1 className='text-gray-500'>Apples</h1>
+     
     </div>
   );
 }
