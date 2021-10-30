@@ -5,6 +5,7 @@ import { Dashboard } from '../../pages/Dashboard';
 import Explore from '../../pages/Explore';
 import Messages from '../../pages/Messages';
 import People from '../../pages/People';
+import Profile from '../../pages/Profile';
 
 export const AuthenticatedRoutes = () => {
 
@@ -16,7 +17,7 @@ export const AuthenticatedRoutes = () => {
         <Route path='/explore' exact component={Explore} />
         <Route path='/message' exact component={Messages} />
         <Route path='/people' exact component={People} />
-        <Route path='/profile' exact component={Dashboard} />
+        <Route path='/profile' exact component={Profile} />
 
         <Redirect path='*' to='/dashboard' />
       </Switch>
