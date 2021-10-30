@@ -6,3 +6,7 @@ export const urls = {
     stories: '/stories/',
     threads: '/api/v1/threads/'
 }
+
+export const theme = {
+    brand: '',
+}

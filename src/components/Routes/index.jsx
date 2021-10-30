@@ -58,7 +58,7 @@ export const Routes= () => {
     //   setAppLoading(false);
     // }
   }
-  }, [userAith0, getAccessTokenSilently, user, isLoading, isAuthenticated]);
+  }, [userAith0, getAccessTokenSilently, user, isLoading, isAuthenticated, history]);
 
   if (isLoading) return <Loader fullScreen />;
 

@@ -14,7 +14,7 @@ ReactDOM.render(
           <App />
         </Auth0ProviderWithHistory>
       </BrowserRouter>
-      </StyledEngineProvider>,
+      </StyledEngineProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
