@@ -92,7 +92,7 @@ function getStyles(name, arrItem, theme) {
   });
 
 
-const BasicProfileForm = ({ }) => {
+const BasicProfileForm = ({ setAuthenticated }) => {
   const theme = useTheme();
   const {getAccessTokenSilently} = useAuth0();
   return (
@@ -128,7 +128,10 @@ const BasicProfileForm = ({ }) => {
               },
             });
 
-            console.log(data)
+            console.log(data);
+
+            // if(data.)
+            setAuthenticated(true)
 
             resetForm();
           } catch (error) {
